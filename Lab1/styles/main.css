@@ -1,0 +1,208 @@
+body{ 
+  background-image: url(../images/stripes.jpg);
+  background-position: center center;   
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; 
+  margin: 0;
+  
+}
+
+
+P {
+  font-size: 20px;
+}
+
+a { 
+  text-decoration: none !important;
+}
+
+img {
+  height:45px;
+  width:45px;
+  margin-right:20px;
+  margin-top:5px;
+}
+
+.header{
+  width: 800px;
+  height: 50px;
+  border-radius: 15px;
+  background-image: url(../images/blue.jpg);
+  font-size: 30px;
+  font-family: monospace;
+  color: #000000;
+  border: 1px solid blue;
+}
+.main_table{
+  border: 1px solid blue;
+  border-radius: 15px;
+  padding: 20px;
+  width: 700px;
+  background-image: url(../images/test.jpg);
+}
+
+.container {
+  background-image: url(../images/allBlue.jpg) !important;
+  
+  border-radius: 15px;
+  border: 1px solid blue;
+}
+
+table.points{
+  border-collapse: collapse;
+  border: 2px solid black;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+table.points > caption {
+  font-size: 25px;
+ }
+ 
+.points1 {
+  border: 2px solid black; 
+  text-align: center;
+  padding: 7px;
+}
+
+.radio_btn{
+  font-size: 20px;
+}
+
+form:first-line {
+  font-weight: bold !important;
+}
+
+#X_select, #Y {
+  width: 170px;
+  font-size: 15px;
+}
+.select_point:before {
+  content: "\2022";
+}
+
+.submit{
+  width: 165px;
+  background: #1b30a7 !important;
+  color: white;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.submit:hover{
+  background: #0bee17 !important;
+}
+
+.submit:active{
+  background: #faea06 !important;
+}
+
+.error {
+  text-align: center;
+  font-size: 15px;
+  color: red;
+}
+
+#choose {
+  font-size: 25px;
+  font-style: bold;
+}
+
+.left{
+  float: left;
+  padding-left: 20px;
+}
+
+.center{
+  float: center;
+}
+
+.right{
+  float: right;
+  padding-right: 20px;
+}
+
+#canvas {
+  margin-left: 100px;
+}
+
+
+/* ANIMATION */
+
+div.lab {
+  cursor: default;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  display: block;
+  width: 800px;
+  height: 60px;
+  border-radius: 15px;
+  background-image: url(../images/blue.jpg);
+  font-size: 5px;
+  font-family: monospace;
+  color: #000000;
+  
+}
+
+div.lab span {
+  position: relative;
+  top: 5px;
+  display: inline-block;
+  font-size: 30px;
+  -webkit-animation: bounce .3s ease infinite alternate;
+  
+  font-family: 'monospase';
+  font-size: 35px;
+  color: black;
+
+  text-shadow: 0 1px 0 black,
+               0 2px 0 transparent,
+               0 3px 0 transparent,
+               0 4px 0 transparent,
+               0 5px 0 transparent,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .4);
+}
+
+div.lab span:nth-child(2), div.lab span:nth-child(11), div.lab span:nth-child(20) {
+  -webkit-animation-delay: .1s;
+}
+div.lab span:nth-child(3), div.lab span:nth-child(12), div.lab span:nth-child(21) {
+  -webkit-animation-delay: .2s;
+}
+div.lab span:nth-child(4), div.lab span:nth-child(13), div.lab span:nth-child(22) {
+  -webkit-animation-delay: .3s;
+}
+div.lab span:nth-child(5), div.lab span:nth-child(14) {
+  -webkit-animation-delay: .4s;
+}
+div.lab span:nth-child(6), div.lab span:nth-child(15) {
+  -webkit-animation-delay: .5s;
+}
+div.lab span:nth-child(7), div.lab span:nth-child(16) {
+  -webkit-animation-delay: .6s;
+}
+div.lab span:nth-child(8), div.lab span:nth-child(17) {
+  -webkit-animation-delay: .7s;
+}
+div.lab span:nth-child(9), div.lab span:nth-child(18) {
+  -webkit-animation-delay: .8s;
+}
+div.lab span:nth-child(10), div.lab span:nth-child(19) {
+  -webkit-animation-delay: .9s;
+}
+
+@-webkit-keyframes bounce {
+  100% {
+    top: -5px; 
+  }
+}
